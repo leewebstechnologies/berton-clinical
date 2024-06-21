@@ -30,190 +30,15 @@ const App = () => {
         </Routes>
       </BrowserRouter>
 
-   
       {/*/ End Slider Area */}
       {/* Start Schedule Area */}
-      <section className="schedule">
-        <div className="container">
-          <div className="schedule-inner">
-            <div className="row">
-              <div className="col-lg-4 col-md-6 col-12 ">
-                {/* single-schedule */}
-                <div className="single-schedule first">
-                  <div className="inner">
-                    <div className="icon">
-                      <i className="fa fa-ambulance" />
-                    </div>
-                    <div className="single-content">
-                      <h4>Emergency Cases</h4>
-                      <p>
-                        In a medical emergency, time is of the essence – and so
-                        is a correct diagnosis.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-12">
-                {/* single-schedule */}
-                <div className="single-schedule middle">
-                  <div className="inner">
-                    <div className="icon">
-                      <i className="icofont-prescription" />
-                    </div>
-                    <div className="single-content">
-                      <h4>Doctors Timetable</h4>
-                      <ul className="time-sidual">
-                        <li className="day">
-                          Monday - Friday <span>8.00-20.00</span>
-                        </li>
-                        <li className="day">
-                          Saturday - Sunday <span>9.00-18.30</span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-12 col-12">
-                {/* single-schedule */}
-                <div className="single-schedule last">
-                  <div className="inner">
-                    <div className="icon">
-                      <i className="icofont-ui-clock" />
-                    </div>
-                    <div className="single-content">
-                      <h4>Opening Hours</h4>
-                      <ul className="time-sidual">
-                        <li className="day">
-                          Monday - Friday <span>8.00-20.00</span>
-                        </li>
-                        <li className="day">
-                          Saturday - Sunday <span>9.00-18.30</span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
       {/*/End Start schedule Area */}
       {/* Start Feautes */}
-      <section className="Feautes section">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="section-title">
-                <h2>We Are Always Ready to Help You &amp; Your Family</h2>
-                <img src="img/section-img.png" alt="#" />
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit
-                  praesent aliquet. pretiumts
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-4 col-12">
-              {/* Start Single features */}
-              <div className="single-features">
-                <div className="signle-icon">
-                  <i className="icofont icofont-ambulance-cross" />
-                </div>
-                <h3>Emergency Help</h3>
-                <p>
-                  Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam
-                  vulputate.
-                </p>
-              </div>
-              {/* End Single features */}
-            </div>
-            <div className="col-lg-4 col-12">
-              {/* Start Single features */}
-              <div className="single-features">
-                <div className="signle-icon">
-                  <i class="icofont-blood"></i>
-                </div>
-                <h3>Enriched Pharmecy</h3>
-                <p>
-                  Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam
-                  vulputate.
-                </p>
-              </div>
-              {/* End Single features */}
-            </div>
-            <div className="col-lg-4 col-12">
-              {/* Start Single features */}
-              <div className="single-features last">
-                <div className="signle-icon">
-                  <i class="icofont-laboratory"></i>
-                </div>
-                <h3>Medical Treatment</h3>
-                <p>
-                  Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam
-                  vulputate.
-                </p>
-              </div>
-              {/* End Single features */}
-            </div>
-          </div>
-        </div>
-      </section>
+
       {/*/ End Feautes */}
       {/* Start Fun-facts */}
-      <div id="fun-facts" className="fun-facts section overlay">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-3 col-md-6 col-12">
-              {/* Start Single Fun */}
-              <div className="single-fun">
-                <i className="icofont icofont-home" />
-                <div className="content">
-                  <span className="counter">3468</span>
-                  <p>Hospital Rooms</p>
-                </div>
-              </div>
-              {/* End Single Fun */}
-            </div>
-            <div className="col-lg-3 col-md-6 col-12">
-              {/* Start Single Fun */}
-              <div className="single-fun">
-                <i className="icofont icofont-user-alt-3" />
-                <div className="content">
-                  <span className="counter">557</span>
-                  <p>Specialist Doctors</p>
-                </div>
-              </div>
-              {/* End Single Fun */}
-            </div>
-            <div className="col-lg-3 col-md-6 col-12">
-              {/* Start Single Fun */}
-              <div className="single-fun">
-                <i className="icofont-simple-smile" />
-                <div className="content">
-                  <span className="counter">4379</span>
-                  <p>Happy Patients</p>
-                </div>
-              </div>
-              {/* End Single Fun */}
-            </div>
-            <div className="col-lg-3 col-md-6 col-12">
-              {/* Start Single Fun */}
-              <div className="single-fun">
-                <i className="icofont icofont-table" />
-                <div className="content">
-                  <span className="counter">32</span>
-                  <p>Years of Experience</p>
-                </div>
-              </div>
-              {/* End Single Fun */}
-            </div>
-          </div>
-        </div>
-      </div>
+
       {/*/ End Fun-facts */}
       {/* Start Why choose */}
       <section className="why-choose section">
@@ -1039,7 +864,7 @@ const App = () => {
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
-                            About Us
+                            Bio-analytical Lab
                           </a>
                         </li>
                         <li>
@@ -1048,7 +873,7 @@ const App = () => {
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
-                            Services
+                            Drug Manucaturing
                           </a>
                         </li>
                         <li>
@@ -1057,7 +882,7 @@ const App = () => {
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
-                            Our Cases
+                            Medical Supplies & Logistics
                           </a>
                         </li>
                         <li>
@@ -1066,7 +891,7 @@ const App = () => {
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
-                            Other Links
+                            Clinical Research Professional Trainings
                           </a>
                         </li>
                       </ul>
@@ -1079,7 +904,7 @@ const App = () => {
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
-                            Consuling
+                            Rescue Research - Save Studies
                           </a>
                         </li>
                         <li>
@@ -1088,7 +913,7 @@ const App = () => {
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
-                            Finance
+                            Neuroscience
                           </a>
                         </li>
                         <li>
@@ -1097,7 +922,7 @@ const App = () => {
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
-                            Testimonials
+                            Ophthalmology
                           </a>
                         </li>
                         <li>
@@ -1106,7 +931,7 @@ const App = () => {
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
-                            FAQ
+                            Dermatology
                           </a>
                         </li>
                         <li>
@@ -1115,7 +940,52 @@ const App = () => {
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
-                            Contact Us
+                            Our Strategy
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i
+                              className="fa fa-caret-right"
+                              aria-hidden="true"
+                            />
+                            Corporate Philanthropy
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i
+                              className="fa fa-caret-right"
+                              aria-hidden="true"
+                            />
+                            Locations
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i
+                              className="fa fa-caret-right"
+                              aria-hidden="true"
+                            />
+                            Investigators
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i
+                              className="fa fa-caret-right"
+                              aria-hidden="true"
+                            />
+                            Blog
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i
+                              className="fa fa-caret-right"
+                              aria-hidden="true"
+                            />
+                            Contact
                           </a>
                         </li>
                       </ul>
