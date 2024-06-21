@@ -210,11 +210,7 @@ const Footer = () => {
               <div className="col-lg-3 col-md-6 col-12">
                 <div className="single-footer">
                   <h2>Newsletter</h2>
-                  <p>
-                    subscribe to our newsletter to get allour news in your
-                    inbox.. Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit,
-                  </p>
+                  <p>Subscribe to our newsletter to get periodical updates.</p>
                   <form
                     action="mail/mail.php"
                     method="get"

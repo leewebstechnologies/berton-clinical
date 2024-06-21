@@ -114,7 +114,7 @@ const Contact = () => {
                     </div>
                   </div>
                   <div className="col-lg-7 col-md-8 col-12">
-                    <p>( We will be confirm by an Text Message )</p>
+                    <p>( Your message has been sent! )</p>
                   </div>
                 </div>
               </form>
