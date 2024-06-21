@@ -1,21 +1,19 @@
+import { Link } from "react-router-dom";
 import "./footer.css";
 
 const Footer = () => {
+  const today = new Date();
+  const year = today.getFullYear();
   return (
     <>
       <footer id="footer" className="footer ">
-        {/* Footer Top */}
         <div className="footer-top">
           <div className="container">
             <div className="row">
               <div className="col-lg-3 col-md-6 col-12">
                 <div className="single-footer">
                   <h2>About Us</h2>
-                  <p>
-                    Lorem ipsum dolor sit am consectetur adipisicing elit do
-                    eiusmod tempor incididunt ut labore dolore magna.
-                  </p>
-                  {/* Social */}
+                  <p>Berton Clinical's Commitment to Making a Global Impact</p>
                   <ul className="social">
                     <li>
                       <a href="#">
@@ -43,7 +41,6 @@ const Footer = () => {
                       </a>
                     </li>
                   </ul>
-                  {/* End Social */}
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-12">
@@ -53,143 +50,143 @@ const Footer = () => {
                     <div className="col-lg-6 col-md-6 col-12">
                       <ul>
                         <li>
-                          <a href="#">
+                          <Link to="/">
                             <i
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
                             Home
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="/bioanalytical">
                             <i
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
                             Bio-analytical Lab
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="/drug">
                             <i
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
                             Drug Manucaturing
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="/medical">
                             <i
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
                             Medical Supplies & Logistics
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="/clinical">
                             <i
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
                             Clinical Research Professional Trainings
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
                     <div className="col-lg-6 col-md-6 col-12">
                       <ul>
                         <li>
-                          <a href="#">
+                          <Link to="/rescue">
                             <i
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
                             Rescue Research - Save Studies
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="/neuroscience">
                             <i
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
                             Neuroscience
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="/ophthalmology">
                             <i
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
                             Ophthalmology
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="/dermatology">
                             <i
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
                             Dermatology
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="/strategy">
                             <i
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
                             Our Strategy
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="/corporate">
                             <i
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
                             Corporate Philanthropy
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="/locations">
                             <i
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
                             Locations
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="/investigators">
                             <i
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
                             Investigators
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="/blog">
                             <i
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
                             Blog
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="/contact">
                             <i
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
                             Contact
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -242,22 +239,19 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        {/*/ End Footer Top */}
-        {/* Copyright */}
         <div className="copyright">
           <div className="container">
             <div className="row">
               <div className="col-lg-12 col-md-12 col-12">
                 <div className="copyright-content">
                   <p>
-                    © Copyright 2024 | All Rights Reserved By Berton Clinical
+                    © Copyright {year} | All Rights Reserved By Berton Clinical
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        {/*/ End Copyright */}
       </footer>
     </>
   );
