@@ -1,8 +1,12 @@
+import Footer from "../../components/footer/Footer";
 import "./neuroscience.css";
 
 const Neuroscience = () => {
   return (
-    <div>Neuroscience</div>
-  )
-}
-export default Neuroscience
+    <>
+      Neuroscience
+      <Footer />
+    </>
+  );
+};
+export default Neuroscience;

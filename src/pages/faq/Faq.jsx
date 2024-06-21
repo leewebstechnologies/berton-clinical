@@ -1,12 +1,12 @@
 import Footer from "../../components/footer/Footer";
-import "./medical.css";
+import "./faq.css";
 
-const Medical = () => {
+const Faq = () => {
   return (
     <>
-    Medical Supplies
+    FAQ
     <Footer />
     </>
-  );
+  )
 };
-export default Medical;
+export default Faq;

@@ -1,0 +1,663 @@
+.services .single-service {
+  margin: 30px 0;
+  position: relative;
+  padding-left: 70px;
+}
+.services .single-service i {
+  font-size: 45px;
+  color: #1a76d1;
+  position: absolute;
+  left: 0;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.services .single-service h4 {
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  color: #2c2d3f;
+}
+.services .single-service h4 a {
+  color: #2c2d3f;
+  font-size: 20px;
+  font-weight: 600;
+}
+.services .single-service h4 a:hover {
+  color: #1a76d1;
+}
+.services .single-service p {
+  color: #868686;
+}
+/*-- Service Details --*/
+.services-details-img {
+  margin-bottom: 50px;
+}
+
+.services-details-img img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.services-details-img h2 {
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+.services-details-img P {
+  margin-bottom: 20px;
+}
+.services-details-img blockquote {
+  font-size: 15px;
+  color: #4a6f8a;
+  background-color: #1a76d1;
+  padding: 30px 75px;
+  line-height: 26px;
+  position: relative;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.services-details-img blockquote i {
+  position: absolute;
+  display: inline-block;
+  top: 20px;
+  left: 38px;
+  font-size: 32px;
+}
+.service-details-inner-left {
+  background-image: url("../../../public/img/signup-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.service-details-inner-left img {
+  display: none;
+}
+.service-details-inner {
+  max-width: 580px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.service-details-inner h2 {
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 15px;
+  border-left: 3px solid #1a76d1;
+  padding-left: 15px;
+}
+.service-details-inner p {
+  margin-bottom: 15px;
+}
+.service-details-inner p:last-child {
+  margin-bottom: 0;
+}
+/*=========================
+	End service CSS
+===========================*/
+
+/*=============================
+	Start Testimonials CSS
+===============================*/
+.testimonials {
+  background-image: url("../../../public/img/testi-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.testimonials .section-title h2 {
+  color: #fff;
+}
+.testimonials .single-testimonial {
+  text-align: left;
+  position: relative;
+  background: #fff;
+  padding: 40px 30px;
+  margin: 5px;
+  margin-bottom: 27px;
+  margin-right: 30px;
+  border-radius: 5px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  margin: 0;
+  margin: 30px 20px;
+}
+.testimonials .single-testimonial:hover {
+  box-shadow: 0px 10px 10px #0000001c;
+  transform: translateY(-4px);
+}
+.testimonials .single-testimonial img {
+  position: absolute;
+  left: 30px;
+  bottom: -26px;
+  height: 53px;
+  width: 53px;
+  border-radius: 100%;
+}
+.testimonials .single-testimonial p {
+  color: #868686;
+  font-size: 14px;
+}
+.testimonials .single-testimonial .name {
+  margin-top: 22px;
+  color: #2c2d3f;
+  font-weight: 500;
+  font-size: 15px;
+}
+.testimonials .owl-dots {
+  position: absolute;
+  left: 50%;
+  bottom: -55px;
+  margin-top: -47px;
+  padding: 10px 25px;
+  border-radius: 3px;
+  margin: 0 0 0 -52px;
+  margin-top: 49px;
+  /* box-sizing: ; */
+}
+.testimonials .owl-dots .owl-dot {
+  display: inline-block;
+  margin-right: 10px;
+}
+.testimonials .owl-dots .owl-dot:last-child {
+  margin: 0px;
+}
+.testimonials .owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  display: block;
+  border-radius: 30px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin: 0;
+  background: #fff;
+  position: relative;
+}
+.testimonials .owl-dots .owl-dot span:hover {
+  background: #fff;
+}
+.testimonials .owl-dots .owl-dot.active span {
+  background: #fff;
+  width: 20px;
+}
+/*=============================
+	End Testimonials CSS
+===============================*/
+
+/*==========================
+	Start Departments CSS
+============================*/
+.departments .department-tab .nav {
+  margin-bottom: 30px;
+  background: transform;
+  position: relative;
+}
+.departments .department-tab .nav li {
+  text-align: center;
+  margin-right: 54px;
+}
+.departments .department-tab .nav li a i {
+  font-size: 50px;
+  color: #868686;
+}
+.departments .department-tab .nav li a:hover {
+  background: transparent;
+}
+.departments .department-tab .nav li a.active i {
+  color: #1a76d1;
+}
+.departments .department-tab .nav li a {
+  color: #fff;
+  margin-top: 20px;
+  border: none;
+  padding: 0;
+  padding-bottom: 20px;
+  border-bottom: 2px solid transparent;
+  padding: 0 10px 20px 10px;
+}
+.departments .department-tab .nav li a.active {
+  border-color: #1a76d1;
+}
+.departments .department-tab .nav li span {
+  display: block;
+}
+.departments .department-tab .nav li .first {
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #868686;
+}
+.departments .department-tab .nav li a.active .first {
+  color: #2c2d3f;
+}
+.departments .department-tab .nav li .second {
+  font-size: 14px;
+  font-weight: 400;
+  color: #868686;
+  margin-top: 3px;
+}
+
+.departments .department-tab .tab-pane .department-left h3 {
+  color: #2c2d3f;
+  font-weight: 600;
+  font-size: 26px;
+  position: relative;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+.departments .department-tab .tab-pane .department-left h3:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 50px;
+  background: #2c2d3f;
+}
+.departments .department-tab .tab-pane .department-left .p1 {
+  color: #1a76d1;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+.departments .department-tab .tab-pane .department-left p {
+  margin-bottom: 20px;
+}
+
+.departments .department-tab .tab-pane .department-left .list li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 6px;
+}
+.departments .department-tab .tab-pane .department-left .list li:last-child {
+  margin-bottom: 0px;
+}
+.departments .department-tab .tab-pane .department-left .list li i {
+  position: absolute;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  line-height: 15px;
+  color: #fff;
+  background: #1a76d1;
+  text-align: center;
+  border-radius: 100%;
+  font-size: 8px;
+  margin-right: 20px;
+  top: 4px;
+}
+.departments .department-tab .tab-content .tab-text h2 {
+  font-size: 18px;
+}
+.departments .department-tab .tab-content .tab-text p {
+  color: #555;
+  margin-top: 10px;
+}
+/*==========================
+	End Departments CSS
+============================*/
+
+/*=============================
+	Start Pricing Table CSS
+===============================*/
+.pricing-table {
+  background: #f9f9f9;
+  position: relative;
+}
+.pricing-table .single-table {
+  background: #fff;
+  border: 1px solid #ddd;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  margin: 15px 0;
+  padding: 45px 35px 30px 35px;
+}
+/* Table Head */
+.pricing-table .single-table .table-head {
+  text-align: center;
+}
+.pricing-table .single-table .icon i {
+  font-size: 65px;
+  color: #1a76d1;
+}
+.pricing-table .single-table .title {
+  font-size: 21px;
+  color: #2c2d3f;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.pricing-table .single-table .amount {
+  font-size: 36px;
+  font-weight: 600;
+  color: #1a76d1;
+}
+.pricing-table .single-table .amount span {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  color: #868686;
+  margin-left: 8px;
+}
+/* Table List */
+.pricing-table .single-table .table-list {
+  padding: 10px 0;
+  text-align: left;
+  margin-top: 30px;
+}
+.pricing-table .table-list li {
+  position: relative;
+  color: #666;
+  text-transform: capitalize;
+  margin-bottom: 18px;
+  padding-right: 32px;
+}
+.pricing-table .table-list li:last-child {
+  margin-bottom: 0px;
+}
+.pricing-table .table-list li.cross i {
+  background: #aaaaaa;
+}
+.pricing-table .table-list i {
+  font-size: 7px;
+  text-align: center;
+  margin-right: 10px;
+  position: absolute;
+  right: 0;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #fff;
+  background: #1a76d1;
+  border-radius: 100%;
+  padding-left: 1px;
+}
+
+/* Table Bottom */
+.pricing-table .table-bottom {
+  margin-top: 25px;
+}
+.pricing-table .btn {
+  padding: 12px 25px;
+  width: 100%;
+  color: #fff;
+}
+.pricing-table .btn:before {
+  background: #2c2d3f;
+}
+.pricing-table .btn:hover {
+  color: #fff;
+}
+.pricing-table .btn i {
+  font-size: 16px;
+  margin-right: 10px;
+}
+/*=============================
+	End Pricing Table CSS
+===============================*/
+
+/*========================
+	Start Clients CSS
+==========================*/
+.clients {
+  background-image: url("../../../public/img/client-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0px;
+  position: relative;
+}
+
+.clients .single-clients img {
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+  float: none;
+  padding: 0 35px;
+}
+
+.team {
+  background-image: url("../../../public/img/testi-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.team.single-page {
+  background: #fff;
+}
+.team .section-title h2 {
+  color: #fff;
+}
+.team .section-title p {
+  color: #fff;
+}
+.team .single-team {
+  background: #fff;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-top: 30px;
+  text-align: center;
+  box-shadow: 0px 0px 10px #00000021;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.team .t-head {
+  position: relative;
+  overflow: hidden;
+}
+.team .t-head::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  opacity: 0;
+  visibility: hidden;
+  content: "";
+  z-index: 2;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.team .single-team:hover .t-head::before {
+  visibility: visible;
+  opacity: 0.5;
+}
+.team .t-head img {
+  width: 100%;
+  position: relative;
+}
+.team .t-icon a {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 150px;
+  height: 46px;
+  line-height: 40px;
+  opacity: 0;
+  visibility: hidden;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  border-radius: 0;
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  transform: scale(0.6);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  z-index: 99;
+  margin: -23px 0 0 -75px;
+  font-size: 15px;
+  background: #2889e4;
+  font-size: 13px;
+  line-height: 46px;
+  padding: 0;
+  border-radius: 4px;
+}
+.team .single-team:hover .t-icon a {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+}
+.team .t-bottom {
+  text-align: center;
+  position: relative;
+  padding: 0 20px;
+  padding: 25px 20px;
+}
+.team .t-bottom p {
+  color: #666;
+  font-size: 13px;
+  display: block;
+  margin-bottom: 4px;
+}
+.team .t-bottom h2 {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #2c2d3f;
+}
+.team .t-bottom h2 a:hover {
+  color: #1a76d1;
+}
+/*-- Doctor Details --*/
+.doctor-details-left {
+  -webkit-box-shadow: 0px 0px 10px 0px #ddd;
+  box-shadow: 0px 0px 10px 0px #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.doctor-details-item img {
+  width: 100%;
+  border-radius: 0;
+}
+.doctor-details-item .doctor-details-contact {
+  padding: 50px;
+}
+.doctor-details-item .doctor-details-contact h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #2c2d3f;
+  margin-bottom: 30px;
+}
+.doctor-details-item .doctor-details-contact .basic-info {
+  margin: 0;
+  padding: 0;
+}
+.doctor-details-item .doctor-details-contact .basic-info li {
+  list-style-type: none;
+  display: block;
+  font-weight: 400;
+  font-size: 15px;
+  color: #2c2d3f;
+  margin-bottom: 10px;
+}
+.doctor-details-item .doctor-details-contact .basic-info li:last-child {
+  margin-bottom: 0;
+}
+.doctor-details-item .doctor-details-contact .basic-info li i {
+  display: inline-block;
+  color: #1a76d1;
+  margin-right: 8px;
+  font-size: 16px;
+  position: relative;
+  top: 1px;
+}
+.doctor-details-area .doctor-details-left .social {
+  margin-top: 25px;
+}
+.doctor-details-area .doctor-details-left .social li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.doctor-details-area .doctor-details-left .social li:last-child {
+  margin-right: 0px;
+}
+.doctor-details-area .doctor-details-left .social li a {
+  height: 34px;
+  width: 34px;
+  line-height: 34px;
+  text-align: center;
+  border: 1px solid #c8c8c8;
+  text-align: center;
+  padding: 0;
+  border-radius: 4px;
+  display: block;
+  color: #757575;
+  font-size: 16px;
+}
+.doctor-details-area .doctor-details-left .social li a:hover {
+  color: #fff;
+  background: #1a76d1;
+  border-color: transparent;
+}
+.doctor-details-item .doctor-details-work h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #2c2d3f;
+  margin-top: 30px;
+}
+
+.doctor-details-item .doctor-details-work .time-sidual {
+  overflow: hidden;
+}
+.doctor-details-item .doctor-details-work .time-sidual li {
+  display: block;
+  color: #2c2d3f;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.doctor-details-item .doctor-details-work .time-sidual li span {
+  display: inline-block;
+  /* float: right; */
+}
+.doctor-details-item .doctor-details-work .day-head .time {
+  font-weight: 400;
+  float: right;
+}
+
+.doctor-details-area .doctor-details-right {
+  padding-left: 60px;
+  padding-top: 70px;
+}
+
+.doctor-details-item .doctor-details-biography h3 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #2f60bd;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.doctor-details-item .doctor-details-biography p {
+  margin-bottom: 0;
+}
+.doctor-details-item .doctor-details-biography ul {
+  margin: 0;
+  padding: 0;
+}
+.doctor-details-item .doctor-details-biography ul li {
+  list-style-type: none;
+  display: block;
+  margin-bottom: 10px;
+}
+.doctor-details-item .doctor-details-biography ul li:last-child {
+  margin-bottom: 0;
+}
+.doctor-details-item .doctor-name .name {
+  font-size: 30px;
+  font-weight: 600;
+}
+.doctor-details-item .doctor-name .deg {
+  font-size: 22px;
+  margin: 10px 0 5px 0;
+}
+.doctor-details-item .doctor-name .degree {
+  font-size: 16px;
+}

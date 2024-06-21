@@ -1,6 +1,12 @@
+import Footer from "../../components/footer/Footer";
 import "./dermatology.css";
 
 const Dermatology = () => {
-  return <div>Dermatology</div>;
+  return (
+    <>
+      Dermatology
+      <Footer />
+    </>
+  );
 };
 export default Dermatology;

@@ -1,6 +1,12 @@
+import Footer from "../../components/footer/Footer";
 import "./rescue.css";
 
 const Rescue = () => {
-  return <div>Rescue</div>;
+  return (
+    <>
+      Rescue
+      <Footer />
+    </>
+  );
 };
 export default Rescue;

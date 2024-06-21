@@ -1,6 +1,12 @@
+import Footer from "../../components/footer/Footer";
 import "./ophthalmology.css";
 
 const Ophthalmology = () => {
-  return <div>Ophthalmology</div>;
+  return (
+    <>
+      Ophthalmology
+      <Footer />
+    </>
+  );
 };
 export default Ophthalmology;

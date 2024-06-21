@@ -1,6 +1,12 @@
+import Footer from "../../components/footer/Footer";
 import "./locations.css";
 
 const Locations = () => {
-  return <div>Locations</div>;
+  return (
+    <>
+      Locations
+      <Footer />
+    </>
+  );
 };
 export default Locations;

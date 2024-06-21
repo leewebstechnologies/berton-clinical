@@ -1,6 +1,12 @@
+import Footer from "../../components/footer/Footer";
 import "./bioanalytical.css";
 
 const Bioanalytical = () => {
-  return <div>Bioanalytical</div>;
+  return (
+    <>
+      Bioanalytical
+      <Footer />
+    </>
+  );
 };
 export default Bioanalytical;

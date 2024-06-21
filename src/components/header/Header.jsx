@@ -11,7 +11,7 @@ const Header = () => {
               <div className="col-lg-6 col-md-5 col-12">
                 <ul className="top-link">
                   <li>
-                    <Link className="a" to="/about">
+                    <Link className="a" to="/strategy">
                       About
                     </Link>
                   </li>
@@ -30,10 +30,6 @@ const Header = () => {
               </div>
               <div className="col-lg-6 col-md-7 col-12">
                 <ul className="top-contact">
-                  <li>
-                    <i class="fa-solid fa-location-dot"></i>
-                    126, Lagos-Abeokuta Express Way, Lagos.
-                  </li>
                   <li>
                     <i className="fa fa-phone" />
                     +234 1234 56789
@@ -67,7 +63,7 @@ const Header = () => {
                     <nav className="navigation">
                       <ul className="nav menu">
                         <li className="active">
-                          <a href="#">Home </a>
+                          <Link to="/">Home</Link>
                         </li>
                         <li>
                           <a href="#">
@@ -96,38 +92,39 @@ const Header = () => {
                           </a>
                           <ul className="dropdown">
                             <li>
-                              <a href="index.html">Neuroscience</a>
+                              <Link to="neuroscience">Neuroscience</Link>
                             </li>
                             <li>
-                              <a href="index.html">Ophthalmology</a>
+                              <Link to="ophthalmology">Ophthalmology</Link>
                             </li>
                             <li>
-                              <a href="index.html">Dermatology</a>
+                              <Link to="dermatology">Dermatology</Link>
                             </li>
                           </ul>
                         </li>
                         <li>
-                          <a href="#">About Us </a>
+                          <Link to="/">About Us</Link>
+                          {/* <a href="#">About Us </a> */}
                           <ul className="dropdown">
                             <li>
-                              <a href="index.html">Our Strategy</a>
+                              <Link to="strategy">Strategy</Link>
                             </li>
                             <li>
-                              <a href="index.html">Corporate Philanthropy</a>
+                              <Link to="corporate">Corporate Philanthropy</Link>
                             </li>
                             <li>
-                              <a href="index.html">Locations</a>
+                              <Link to="locations">Locations</Link>
                             </li>
                             <li>
-                              <a href="index.html">Investigators</a>
+                              <Link to="investigators">Investigators</Link>
                             </li>
                           </ul>
                         </li>
                         <li>
-                          <a href="#">Blog </a>
+                          <Link to="blog">Blog</Link>
                         </li>
                         <li>
-                          <a href="contact.html">Contact Us</a>
+                          <Link to="contact">Contact Us</Link>
                         </li>
                       </ul>
                     </nav>

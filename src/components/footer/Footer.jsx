@@ -67,7 +67,7 @@ const Footer = () => {
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
-                            About Us
+                            Bio-analytical Lab
                           </a>
                         </li>
                         <li>
@@ -76,7 +76,7 @@ const Footer = () => {
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
-                            Services
+                            Drug Manucaturing
                           </a>
                         </li>
                         <li>
@@ -85,7 +85,7 @@ const Footer = () => {
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
-                            Our Cases
+                            Medical Supplies & Logistics
                           </a>
                         </li>
                         <li>
@@ -94,7 +94,7 @@ const Footer = () => {
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
-                            Other Links
+                            Clinical Research Professional Trainings
                           </a>
                         </li>
                       </ul>
@@ -107,7 +107,7 @@ const Footer = () => {
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
-                            Consuling
+                            Rescue Research - Save Studies
                           </a>
                         </li>
                         <li>
@@ -116,7 +116,7 @@ const Footer = () => {
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
-                            Finance
+                            Neuroscience
                           </a>
                         </li>
                         <li>
@@ -125,7 +125,7 @@ const Footer = () => {
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
-                            Testimonials
+                            Ophthalmology
                           </a>
                         </li>
                         <li>
@@ -134,7 +134,7 @@ const Footer = () => {
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
-                            FAQ
+                            Dermatology
                           </a>
                         </li>
                         <li>
@@ -143,7 +143,52 @@ const Footer = () => {
                               className="fa fa-caret-right"
                               aria-hidden="true"
                             />
-                            Contact Us
+                            Our Strategy
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i
+                              className="fa fa-caret-right"
+                              aria-hidden="true"
+                            />
+                            Corporate Philanthropy
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i
+                              className="fa fa-caret-right"
+                              aria-hidden="true"
+                            />
+                            Locations
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i
+                              className="fa fa-caret-right"
+                              aria-hidden="true"
+                            />
+                            Investigators
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i
+                              className="fa fa-caret-right"
+                              aria-hidden="true"
+                            />
+                            Blog
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i
+                              className="fa fa-caret-right"
+                              aria-hidden="true"
+                            />
+                            Contact
                           </a>
                         </li>
                       </ul>
@@ -205,7 +250,7 @@ const Footer = () => {
               <div className="col-lg-12 col-md-12 col-12">
                 <div className="copyright-content">
                   <p>
-                    © Copyright 2024 | All Rights Reserved by Berton Clinical
+                    © Copyright 2024 | All Rights Reserved By Berton Clinical
                   </p>
                 </div>
               </div>

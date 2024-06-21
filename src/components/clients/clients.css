@@ -1,0 +1,15 @@
+.clients {
+  background-image: url("../../../public/img/client-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0px;
+  position: relative;
+}
+
+.clients .single-clients img {
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+  float: none;
+  padding: 0 35px;
+}
