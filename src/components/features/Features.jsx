@@ -38,7 +38,7 @@ const Features = () => {
                 <div className="signle-icon">
                   <i class="icofont-blood"></i>
                 </div>
-                <h3>Enriched Pharmecy</h3>
+                <h3>Blood Examination</h3>
                 <p>
                   Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam
                   vulputate.
