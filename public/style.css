@@ -120,51 +120,7 @@ body {
 }
 /*=============================
 	End Global CSS 
-===============================*/
 
-/*===================
-	Start Header CSS 
-=====================*/
-
-/*=========================
-	End Header CSS
-===========================*/
-
-/*===========================
-	Start Hero Area CSS
-=============================*/
-
-/*===========================
-	End Hero Area CSS
-=============================*/
-
-/*=============================
-	Start Schedule CSS
-===============================*/
-
-/*=============================
-	End Schedule CSS
-===============================*/
-
-/*=============================
-	Start Feautes CSS
-===============================*/
-
-/*=============================
-	End Feautes CSS
-===============================*/
-
-/*=======================
-	Start Fun Facts CSS
-=========================*/
-
-/*===================
-	End Fun Facts
-=====================*/
-
-/*===================
-	Why choose CSS
-=====================*/
 .why-choose .choose-left h3 {
   font-size: 24px;
   font-weight: 600;
@@ -206,64 +162,7 @@ body {
   margin-right: 16px;
 }
 /* Start Faq CSS */
-.why-choose {
-  background: #fff;
-}
-.why-choose .choose-right {
-  height: 100%;
-  width: 100%;
-  background-image: url("img/video-bg.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-}
-.why-choose .choose-right .video {
-  color: #fff;
-  height: 70px;
-  width: 70px;
-  line-height: 70px;
-  text-align: center;
-  border-radius: 100%;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-left: -35px;
-  margin-top: -35px;
-  font-size: 21px;
-  background: #1a76d1;
-  padding-left: 4px;
-}
-.why-choose .choose-right .video:hover {
-  transform: scale(1.1);
-}
-.why-choose .video-image .waves-block .waves {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  background: #fff;
-  opacity: 0;
-  /* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; */
-  border-radius: 100%;
-  -webkit-animation: waves 3s ease-in-out infinite;
-  animation: waves 3s ease-in-out infinite;
-  left: 50%;
-  margin-left: -100px;
-  top: 50%;
-  margin-top: -100px;
-}
-.why-choose .video-image .waves-block .wave-1 {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-.why-choose .video-image .waves-block .wave-2 {
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
-}
-.why-choose .video-image .waves-block .wave-3 {
-  -webkit-animation-delay: 2s;
-  animation-delay: 2s;
-}
+
 /*=======================
 	End Why choose CSS
 =========================*/

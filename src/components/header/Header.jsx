@@ -31,6 +31,10 @@ const Header = () => {
               <div className="col-lg-6 col-md-7 col-12">
                 <ul className="top-contact">
                   <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    126, Lagos-Abeokuta Express Way, Lagos.
+                  </li>
+                  <li>
                     <i className="fa fa-phone" />
                     +234 1234 56789
                   </li>
@@ -71,18 +75,18 @@ const Header = () => {
                           </a>
                           <ul className="dropdown">
                             <li>
-                              <a href="index.html">Bioanalytical Lab</a>
-                              <a href="index.html">Drug Manufacturing</a>
-                              <a href="index.html">
+                              <Link to="/bioanalytical">Bioanalytical Lab</Link>
+                              <Link to="/drug">Drug Manufacturing</Link>
+                              <Link to="/medical">
                                 Medical Supplies & Logistics
-                              </a>
-                              <a href="index.html">Staffing Services</a>
-                              <a href="index.html">
+                              </Link>
+                              <Link to="/staffing">Staffing Services</Link>
+                              <Link to="clinical">
                                 Clinical Research Professional Trainings
-                              </a>
-                              <a href="index.html">
+                              </Link>
+                              <Link to="rescue">
                                 Rescue Research - Save Studies
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </li>
