@@ -1,8 +1,8 @@
-import Home from "./pages/home/Home";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/header/Header";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/home/Home";
 
-function App() {
+const App = () => {
   return (
     <>
       <BrowserRouter>
@@ -29,86 +29,8 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
-      <section className="slider">
-        <div className="hero-slider">
-          {/* Start Single Slider */}
-          <div
-            className="single-slider"
-            style={{ backgroundImage: 'url("img/slider2.jpg")' }}
-          >
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-7">
-                  <div className="text">
-                    <h1>
-                      We Provide <span>Medical</span> Services That You Can{" "}
-                      <span>Trust!</span>
-                    </h1>
-                    <p>
-                      As the world evolves at an unprecedented pace, the
-                      forefront of innovation lies within the realm of
-                      biotechnology. Welcome to a journey where science meets
-                      possibility, where breakthroughs redefine our
-                      understanding of life itself. Join us as we navigate the
-                      endless frontiers of global innovation in biotechnology,
-                      shaping the future one discovery at a time.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* End Single Slider */}
-          {/* Start Single Slider */}
-          <div
-            className="single-slider"
-            style={{ backgroundImage: 'url("img/slider.jpg")' }}
-          >
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-7">
-                  <div className="text">
-                    <h1>
-                      We Provide <span>Medical</span> Services That You Can{" "}
-                      <span>Trust!</span>
-                    </h1>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Mauris sed nisl pellentesque, faucibus libero eu, gravida
-                      quam.{" "}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* Start End Slider */}
-          {/* Start Single Slider */}
-          <div
-            className="single-slider"
-            style={{ backgroundImage: 'url("img/slider3.jpg")' }}
-          >
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-7">
-                  <div className="text">
-                    <h1>
-                      We Provide <span>Medical</span> Services That You Can{" "}
-                      <span>Trust!</span>
-                    </h1>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Mauris sed nisl pellentesque, faucibus libero eu, gravida
-                      quam.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* End Single Slider */}
-        </div>
-      </section>
+
+   
       {/*/ End Slider Area */}
       {/* Start Schedule Area */}
       <section className="schedule">
@@ -213,7 +135,7 @@ function App() {
               {/* Start Single features */}
               <div className="single-features">
                 <div className="signle-icon">
-                  <i className="icofont icofont-medical-sign-alt" />
+                  <i class="icofont-blood"></i>
                 </div>
                 <h3>Enriched Pharmecy</h3>
                 <p>
@@ -227,7 +149,7 @@ function App() {
               {/* Start Single features */}
               <div className="single-features last">
                 <div className="signle-icon">
-                  <i className="icofont icofont-stethoscope" />
+                  <i class="icofont-laboratory"></i>
                 </div>
                 <h3>Medical Treatment</h3>
                 <p>
@@ -1204,19 +1126,13 @@ function App() {
               <div className="col-lg-3 col-md-6 col-12">
                 <div className="single-footer">
                   <h2>Open Hours</h2>
-                  <p>
-                    Lorem ipsum dolor sit ame consectetur adipisicing elit do
-                    eiusmod tempor incididunt.
-                  </p>
+
                   <ul className="time-sidual">
                     <li className="day">
-                      Monday - Fridayp <span>8.00-20.00</span>
+                      Monday - Friday <span>8.00-20.00</span>
                     </li>
                     <li className="day">
-                      Saturday <span>9.00-18.30</span>
-                    </li>
-                    <li className="day">
-                      Monday - Thusday <span>9.00-15.00</span>
+                      Saturday - Sunday <span>9.00-18.30</span>
                     </li>
                   </ul>
                 </div>
@@ -1272,6 +1188,5 @@ function App() {
       </footer>
     </>
   );
-}
-
+};
 export default App;

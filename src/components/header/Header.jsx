@@ -5,25 +5,21 @@ const Header = () => {
   return (
     <>
       <header className="header">
-        {/* Topbar */}
         <div className="topbar">
           <div className="container">
             <div className="row">
               <div className="col-lg-6 col-md-5 col-12">
-                {/* Contact */}
                 <ul className="top-link">
                   <li>
                     <Link className="a" to="/about">
                       About
                     </Link>
-                    {/* <a href="#">About</a> */}
                   </li>
 
                   <li>
                     <Link className="a" to="/contact">
                       Contact
                     </Link>
-                    {/* <a href="#">Contact</a> */}
                   </li>
                   <li>
                     <Link className="a" to="/faq">
@@ -31,47 +27,38 @@ const Header = () => {
                     </Link>
                   </li>
                 </ul>
-                {/* End Contact */}
               </div>
               <div className="col-lg-6 col-md-7 col-12">
-                {/* Top Contact */}
                 <ul className="top-contact">
                   <li>
                     <i className="fa fa-phone" />
-                    +880 1234 56789
+                    +234 1234 56789
                   </li>
                   <li>
                     <i className="fa fa-envelope" />
-                    <a href="mailto:support@yourmail.com">
-                      support@yourmail.com
+                    <a href="mailto:bertonclinical@gmail.com">
+                      bertonclinical@gmail.com
                     </a>
                   </li>
                 </ul>
-                {/* End Top Contact */}
               </div>
             </div>
           </div>
         </div>
-        {/* End Topbar */}
-        {/* Header Inner */}
+
         <div className="header-inner">
           <div className="container">
             <div className="inner">
               <div className="row">
                 <div className="col-lg-3 col-md-3 col-12">
-                  {/* Start Logo */}
                   <div className="logo">
                     <a href="index.html">
                       <img src="img/logo.png" alt="#" />
                     </a>
                   </div>
-                  {/* End Logo */}
-                  {/* Mobile Nav */}
                   <div className="mobile-nav" />
-                  {/* End Mobile Nav */}
                 </div>
                 <div className="col-lg-7 col-md-9 col-12">
-                  {/* Main Menu */}
                   <div className="main-menu">
                     <nav className="navigation">
                       <ul className="nav menu">
@@ -141,13 +128,11 @@ const Header = () => {
                       </ul>
                     </nav>
                   </div>
-                  {/*/ End Main Menu */}
                 </div>
               </div>
             </div>
           </div>
         </div>
-        {/*/ End Header Inner */}
       </header>
       <Outlet />
     </>
