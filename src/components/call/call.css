@@ -1,5 +1,6 @@
 .call-action {
   background-image: url("../../../public/img/call-bg.jpg");
+  /* background-image:url('img/call-bg.jpg'); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -7,7 +8,7 @@
 }
 .call-action .content {
   text-align: center;
-  padding: 100px 265px;
+  /* padding: 100px 265px; */
 }
 .call-action .content h2 {
   color: #fff;
@@ -54,3 +55,4 @@
 .call-action .content .second i {
   margin-left: 10px;
 }
+

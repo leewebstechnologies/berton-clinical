@@ -1,4 +1,4 @@
-import Call from "../../components/call/Call";
+// import Call from "../../components/call/Call";
 import Clients from "../../components/clients/Clients";
 import Facts from "../../components/facts/Facts";
 import Features from "../../components/features/Features";
@@ -16,7 +16,7 @@ const Home = () => {
       <Features />
       <Facts />
       <Portfolio />
-      <Call />
+      {/* <Call /> */}
       <Clients />
       <Footer />
     </>
