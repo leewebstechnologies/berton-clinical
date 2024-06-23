@@ -104,7 +104,6 @@ const Header = () => {
                         </li>
                         <li>
                           <Link to="/">About Us</Link>
-                          {/* <a href="#">About Us </a> */}
                           <ul className="dropdown">
                             <li>
                               <Link to="strategy">Strategy</Link>
