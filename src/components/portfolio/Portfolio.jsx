@@ -8,11 +8,14 @@ const Portfolio = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="section-title">
-                <h2>We Maintain Cleanliness Rules Inside Our Hospital</h2>
+                <h2>
+                  We Maintain Cleanliness Rules In Our Clinical Research Centre
+                </h2>
                 <img src="img/section-img.png" alt="#" />
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit
-                  praesent aliquet. pretiumts
+                  We incorporate new technology into the cleaning and
+                  disinfecting process to leverage those innovations to mitigate
+                  pathogen transmission.
                 </p>
               </div>
             </div>

@@ -7,66 +7,56 @@ const Slider = () => {
         <div className="hero-slider">
           <div
             className="single-slider"
-            style={{ backgroundImage: 'url("img/slider2.jpg")' }}
+            style={{ backgroundImage: 'url("img/slider4.jpg")' }}
           >
             <div className="container">
               <div className="row">
                 <div className="col-lg-7">
                   <div className="text">
-                    <h1>
-                      We Provide <span>Medical</span> Services That You Can{" "}
-                      <span>Trust!</span>
-                    </h1>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Mauris sed nisl pellentesque, faucibus libero eu, gravida
-                      quam.{" "}
+                      As the world evolves at an unprecedented pace, the
+                      forefront of innovation lies within the realm of
+                      biotechnology. Welcome to a journey where science meets
+                      possibility, where breakthroughs redefine our
+                      understanding of life itself. Join us as we navigate the
+                      endless frontiers of global innovation in biotechnology,
+                      shaping the future one discovery at a time.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
           <div
             className="single-slider"
-            style={{ backgroundImage: 'url("img/slider.jpg")' }}
+            style={{ backgroundImage: 'url("img/slider5.jpg")' }}
           >
             <div className="container">
               <div className="row">
                 <div className="col-lg-7">
                   <div className="text">
-                    <h1>
-                      We Provide <span>Medical</span> Services That You Can{" "}
-                      <span>Trust!</span>
-                    </h1>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Mauris sed nisl pellentesque, faucibus libero eu, gravida
-                      quam.{" "}
+                      We help the most innovative company transform
+                      life-changing ideas and breakthrough science into new
+                      medical treatment.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
           <div
             className="single-slider"
-            style={{ backgroundImage: 'url("img/slider3.jpg")' }}
+            style={{ backgroundImage: 'url("img/slider6.jpg")' }}
           >
             <div className="container">
               <div className="row">
                 <div className="col-lg-7">
                   <div className="text">
-                    <h1>
-                      We Provide <span>Medical</span> Services That You Can
-                      <span>Trust!</span>
-                    </h1>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Mauris sed nisl pellentesque, faucibus libero eu, gravida
-                      quam.
+                      We help the most innovative company transform
+                      life-changing ideas and breakthrough science into new
+                      medical treatment.
                     </p>
                   </div>
                 </div>

@@ -12,7 +12,7 @@ const Facts = () => {
                 <i className="icofont icofont-home" />
                 <div className="content">
                   <span className="counter">3468</span>
-                  <p>Hospital Rooms</p>
+                  <p>Laboratory Rooms</p>
                 </div>
               </div>
               {/* End Single Fun */}

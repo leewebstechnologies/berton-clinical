@@ -13,7 +13,11 @@ const Footer = () => {
               <div className="col-lg-3 col-md-6 col-12">
                 <div className="single-footer">
                   <h2>About Us</h2>
-                  <p>Berton Clinical's Commitment to Making a Global Impact</p>
+                  <p>
+                    Continually optimizing our processes to deliver the right
+                    mix of agility and knowledge to support our most innovative
+                    biotech and specialty pharma sponsors.
+                  </p>
                   <ul className="social">
                     <li>
                       <a href="#">
