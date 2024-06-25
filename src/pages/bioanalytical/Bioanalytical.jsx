@@ -1,29 +1,31 @@
 import Footer from "../../components/footer/Footer";
 import "./bioanalytical.css";
+import bio from "../../images/bio.jpg";
 
 const Bioanalytical = () => {
   return (
     <>
-      <div
-        className="single-slider"
-        style={{ backgroundImage: 'url("img/bio.jpg")' }}
-      >
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-7">
-              <div className="text">
-                <p>
-                  As the world evolves at an unprecedented pace, the forefront
-                  of innovation lies within the realm of biotechnology. Welcome
-                  to a journey where science meets possibility, where
-                  breakthroughs redefine our understanding of life itself. Join
-                  us as we navigate the endless frontiers of global innovation
-                  in biotechnology, shaping the future one discovery at a time.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div className="bio">
+        <img className="bioimage" src={bio} alt="bio" />
+        <h1>Bioanalytical Lab</h1>
+        <h3>Empowering Discovery: Global Bioanalytical Innovation Unleashed</h3>
+        <p className="first">
+          Our bioanalytical expertise reaches across continents, providing
+          leading drug development companies with the actionable data and
+          insights needed to accelerate therapies from research to reality.
+          <br />
+          Our commitment to excellence is reflected in every aspect of our
+          operations, from our state-of-the-art facilities and meticulously
+          calibrated technology to our strategic satellite laboratories
+          strategically positioned in key regions worldwide. <br /> At the heart
+          of our operation is our cutting-edge track and trace technology, which
+          enables real-time monitoring and intervention capabilities to ensure
+          the seamless transportation of samples from even the most remote
+          locations to our labs without delay. This innovative approach not only
+          overcomes geographical barriers but also ensures the integrity and
+          reliability of the data generated throughout the bioanalytical
+          process. <br />
+        </p>
       </div>
       <Footer />
     </>

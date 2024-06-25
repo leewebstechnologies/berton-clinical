@@ -1,51 +1,25 @@
-.slider .single-slider {
-  height: 600px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.slider .single-slider .text {
-  margin-top: 120px;
-}
-.slider.index2 .single-slider .text {
-  margin-top: 150px;
-}
-.slider .single-slider h1 {
-  color: #2c2d3f;
-  font-size: 38px;
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-  line-height: 42px;
-}
-.slider .single-slider h1 span {
-  color: #1a76d1;
-}
-.slider .single-slider p {
+.bio {
+  position: relative;
+  text-align: center;
   color: #fff;
-  margin-top: 27px;
-  font-weight: 400;
-}
-.slider .single-slider .button {
-  margin-top: 30px;
-}
-.slider .single-slider .btn {
-  color: #fff;
-  background: #1a76d1;
-  font-weight: 500;
-  display: inline-block;
-  margin: 0;
-  margin-right: 10px;
-}
-.slider .single-slider .btn:last-child {
-  margin: 0;
-}
-.slider .single-slider .btn.primary {
-  background: #2c2d3f;
-  color: #fff;
-}
-.slider .single-slider .btn.primary:before {
-  background: #1a76d1;
 }
 
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
 
+h3 {
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  color: #fff;
+}
+
+ .first {
+  margin: 50px;
+  text-align: justify;
+}
