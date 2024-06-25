@@ -6,7 +6,7 @@ const Bioanalytical = () => {
   return (
     <>
       <div className="bio">
-        <img className="bioimage" src={bio} alt="bio" />
+        <img className="bio_image" src={bio} alt="bio" />
         <div className="texts">
           <h1>Bioanalytical Lab</h1>
           <h3>
@@ -120,6 +120,8 @@ const Bioanalytical = () => {
               our mission and share our partners' commitment to delivering
               answers, insights, and innovations as quickly as science allows.
             </p>
+            <br />
+            <br />
           </div>
         </div>
       </div>
