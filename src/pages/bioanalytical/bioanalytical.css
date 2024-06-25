@@ -6,43 +6,8 @@
   text-align: center;
 }
 
-/* .first {
-  text-align: center;
-  margin: 0 0px 0 10px;
-} */
-
 .paragraph {
   margin-left: 50px;
   margin-right: 50px;
   text-align: justify;
 }
-/* .bio {
-  position: relative;
-  text-align: center;
-  color: #fff;
-}
-
-h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-}
-
-h3 {
-  position: absolute;
-  top: 55%;
-  left: 10%;
-  color: #fff;
-}
-
- .first {
-  margin: 50px;
-  text-align: justify;
-}
-
-.second {
-  margin-top: 20px;
-  text-align: justify;
-} */
