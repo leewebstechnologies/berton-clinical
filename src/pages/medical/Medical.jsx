@@ -46,7 +46,7 @@ const Medical = () => {
             <h5>Comprehensive Services From Start to Finish</h5>
             <p>
               With Berton Clinical as your medical supplies and logistics
-              partner, you can have confidence we will handle everything from
+              partner, you can have confidence. We will handle everything from
               procurement to delivery including:
             </p>
             <ol>
