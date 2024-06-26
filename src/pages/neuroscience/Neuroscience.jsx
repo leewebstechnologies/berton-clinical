@@ -91,6 +91,89 @@ const Neuroscience = () => {
             advance treatments that hold promise for patients and caregivers
             alike.
           </p>
+          <p>
+            <b>Comprehensive Cognitive Assessments:</b> Utilizing standardized
+            cognitive assessments and neuropsychological tests to accurately
+            assess baseline cognitive function and track changes over time.
+            These assessments may include the Mini-Mental State Examination
+            (MMSE), Alzheimer's Disease Assessment Scale-Cognitive subscale
+            (ADAS-Cog), and Clinical Dementia Rating (CDR) scale.
+          </p>
+          <p>
+            <b>Biomarker Analysis:</b> Incorporating biomarker analysis into
+            clinical trial protocols to identify biological markers associated
+            with Alzheimer's disease pathology, such as amyloid-beta and tau
+            protein levels in cerebrospinal fluid or through neuroimaging
+            techniques like positron emission tomography (PET) scans.
+          </p>
+          <p>
+            <b>Longitudinal Study Design:</b> Implementing longitudinal study
+            designs with extended follow-up periods to assess the long-term
+            efficacy and safety of investigational treatments. Longitudinal data
+            collection allows for the evaluation of disease progression and
+            treatment effects over time.
+          </p>
+          <p>
+            <b>Caregiver Support Programs:</b> Providing support programs and
+            resources for caregivers of patients with Alzheimer's disease or
+            dementia. This may include educational materials, support groups,
+            and respite care services to help caregivers manage the challenges
+            associated with caring for individuals with neurodegenerative
+            conditions
+          </p>
+          <p>
+            <b>Multidisciplinary Collaboration:</b> Collaborating with a
+            multidisciplinary team of healthcare professionals, including
+            neurologists, neuropsychologists, geriatricians, and research
+            coordinators, to ensure comprehensive patient care and adherence to
+            study protocols.
+          </p>
+          <p>
+            <b>Remote Monitoring Technologies:</b> Leveraging remote monitoring
+            technologies and electronic health records (EHRs) to facilitate data
+            collection and enhance patient monitoring outside of traditional
+            clinical settings. This may include wearable devices, smartphone
+            applications, and telemedicine platforms for remote assessments and
+            data collection.
+          </p>
+          <br />
+          <p>
+            At the heart of Berton Clinical lies a profound inspiration born
+            from our founder's personal journey. Having witnessed the profound
+            impact of neurological disorders on individuals and their loved
+            ones, our founder recognized the critical need for innovative
+            neurotreatment options. It is this firsthand experience that fuels
+            our unwavering commitment to making a difference in the lives of
+            those affected by neurological conditions.
+            <br /> Our patient-centric approach is deeply rooted in compassion
+            and empathy. We understand the challenges and struggles faced by
+            patients and their families, and it is our mission to alleviate
+            their burden through the development of life-changing
+            neurotherapies. Every decision we make, every study we conduct, is
+            driven by the desire to improve the quality of life for individuals
+            living with neurological disorders.
+            <br />
+            At Berton Clinical, we prioritize the well-being and dignity of
+            every patient. We strive to create an environment of understanding,
+            support, and trust, where patients feel valued and empowered
+            throughout their journey. Our commitment to excellence extends
+            beyond the confines of the laboratory or clinic; it is a testament
+            to our dedication to serving humanity with compassion and integrity.
+            <br />
+            Through our relentless pursuit of scientific innovation and our
+            steadfast dedication to the needs of patients, we are committed to
+            transforming the landscape of neurological care. Together, with our
+            partners and collaborators, we will continue to push the boundaries
+            of possibility, bringing hope and healing to those in need. <br />
+            With proven systems and capabilities meticulously tailored for
+            neuroscience trials, you can trust Berton Clinical to deliver the
+            expertise, precision, and care necessary to successfully advance
+            your novel neuro treatments. Let us join forces to make a meaningful
+            difference in improving the lives of patients. <br /> Contact us
+            today to learn more about how we can collaborate on your
+            neuroscience research endeavors.
+          </p>
+          <br />
         </div>
       </div>
       <Footer />
