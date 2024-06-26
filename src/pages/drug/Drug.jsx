@@ -8,6 +8,7 @@ const Drug = () => {
       <div className="drug">
         <img className="drug_image" src={drug} alt="" />
         <div className="texts">
+          <br />
           <h1>Drug Manufacturing</h1>
           <h3>Your Trusted Partner for Pharmaceutical Manufacturing</h3>
           <div className="paragraph">

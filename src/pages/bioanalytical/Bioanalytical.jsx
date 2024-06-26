@@ -8,6 +8,7 @@ const Bioanalytical = () => {
       <div className="bio">
         <img className="bio_image" src={bio} alt="bio" />
         <div className="texts">
+          <br />
           <h1>Bioanalytical Lab</h1>
           <h3>
             Empowering Discovery: Global Bioanalytical Innovation Unleashed

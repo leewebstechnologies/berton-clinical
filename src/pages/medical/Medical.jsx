@@ -8,6 +8,7 @@ const Medical = () => {
       <div className="medical">
         <img className="medical_image" src={medical} alt="medical" />
         <div className="texts">
+          <br />
           <h1>Medical Supplies & Logistics</h1>
           <h3>Reliable Medical Products and Logistics From Start to Finish</h3>
           <div className="paragraph">
