@@ -1,10 +1,12 @@
 import "./slider.css";
+import molecules from "../../videos/molecules.mp4";
 
 const Slider = () => {
   return (
     <>
       <section className="slider">
         <div className="hero-slider">
+          <video className="molecules" src={molecules} autoPlay loop muted />
           <div
             className="single-slider"
             style={{ backgroundImage: 'url("img/slider4.jpg")' }}

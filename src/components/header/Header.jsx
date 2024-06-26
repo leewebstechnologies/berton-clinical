@@ -106,7 +106,7 @@ const Header = () => {
                           <Link to="/">About Us</Link>
                           <ul className="dropdown">
                             <li>
-                              <Link to="strategy">Strategy</Link>
+                              <Link to="strategy">Our Strategy</Link>
                             </li>
                             <li>
                               <Link to="corporate">Corporate Philanthropy</Link>
