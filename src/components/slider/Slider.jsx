@@ -1,16 +1,17 @@
 import "./slider.css";
 import molecules from "../../videos/molecules.mp4";
+import lab from "../../videos/lab.mp4";
 
 const Slider = () => {
   return (
     <>
       <section className="slider">
         <div className="hero-slider">
-          <video className="molecules" src={molecules} autoPlay loop muted />
-          <div
+          <video className="videos" src={molecules} autoPlay loop muted />
+          {/* <div
             className="single-slider"
             style={{ backgroundImage: 'url("img/slider4.jpg")' }}
-          >
+          > */}
             <div className="container">
               <div className="row">
                 <div className="col-lg-7">
@@ -28,11 +29,12 @@ const Slider = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div
+          {/* </div> */}
+          <video className="videos" src={lab} autoPlay loop muted/>
+          {/* <div
             className="single-slider"
             style={{ backgroundImage: 'url("img/slider5.jpg")' }}
-          >
+          > */}
             <div className="container">
               <div className="row">
                 <div className="col-lg-7">
@@ -46,7 +48,7 @@ const Slider = () => {
                 </div>
               </div>
             </div>
-          </div>
+          {/* </div> */}
           <div
             className="single-slider"
             style={{ backgroundImage: 'url("img/slider6.jpg")' }}
