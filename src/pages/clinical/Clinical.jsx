@@ -7,7 +7,7 @@ const Clinical = () => {
     <>
       <div className="clinical">
         <img className="training" src={training} alt="training" />
-        <div className="texts">
+        <div className="text">
           <br />
           <h1>Clinical Research Professional Trainings</h1>
           <h3>Launch Your Career in Clinical Research</h3>
@@ -118,7 +118,8 @@ const Clinical = () => {
             necessary to excel in the competitive field of clinical research.
             Explore our courses and curriculum today to take the next step
             towards advancing your clinical research career.
-          </p><br />
+          </p>
+          <br />
         </div>
       </div>
       <Footer />
