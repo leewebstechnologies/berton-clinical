@@ -9,8 +9,9 @@ const Ophthalmology = () => {
         <img src={ophthalmology} alt="ophthalmology" />
         <div className="text">
           <br />
-          <h1>Ophthalmology</h1>
-          <h3>Advancing Cutting-Edge Ophthalmology Treatments</h3>
+          <h2>Ophthalmology</h2>
+          <h5>Advancing Cutting-Edge Ophthalmology Treatments</h5>
+          <img src="img/section-img.png" alt="line" />
         </div>
         <div className="paragraph">
           <p>

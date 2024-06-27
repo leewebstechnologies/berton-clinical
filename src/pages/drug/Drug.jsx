@@ -11,6 +11,7 @@ const Drug = () => {
           <br />
           <h1>Drug Manufacturing</h1>
           <h3>Your Trusted Partner for Pharmaceutical Manufacturing</h3>
+          <img src="img/section-img.png" alt="line" />
           <div className="paragraph">
             <p>
               We understand that developing life-saving medicines requires

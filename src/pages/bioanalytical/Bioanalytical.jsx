@@ -9,10 +9,11 @@ const Bioanalytical = () => {
         <img className="bio_image" src={bio} alt="bio" />
         <div className="texts">
           <br />
-          <h1>Bioanalytical Lab</h1>
-          <h3>
+          <h2>Bioanalytical Lab</h2>
+          <h5>
             Empowering Discovery: Global Bioanalytical Innovation Unleashed
-          </h3>
+          </h5>
+          <img src="img/section-img.png" alt="line" />
           <div className="paragraph">
             <p>
               Our bioanalytical expertise reaches across continents, providing

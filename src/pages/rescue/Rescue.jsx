@@ -9,8 +9,9 @@ const Rescue = () => {
         <img src={rescue} alt="rescue" />
         <div className="texts">
           <br />
-          <h1>Rescue Research - Save Studies</h1>
-          <h3>Get Stalled Clinical Trials Back on Track</h3>
+          <h2>Rescue Research - Save Studies</h2>
+          <h5>Get Stalled Clinical Trials Back on Track</h5>
+          <img src="img/section-img.png" alt="line" />
         </div>
         <div className="paragraph">
           <p>

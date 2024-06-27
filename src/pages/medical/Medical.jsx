@@ -9,8 +9,9 @@ const Medical = () => {
         <img className="medical_image" src={medical} alt="medical" />
         <div className="texts">
           <br />
-          <h1>Medical Supplies & Logistics</h1>
-          <h3>Reliable Medical Products and Logistics From Start to Finish</h3>
+          <h2>Medical Supplies & Logistics</h2>
+          <h5>Reliable Medical Products and Logistics From Start to Finish</h5>
+          <img src="img/section-img.png" alt="line" />
           <div className="paragraph">
             <p>
               At Berton Clinical, we provide a comprehensive range of medical

@@ -9,8 +9,9 @@ const Neuroscience = () => {
         <img src={neuro} alt="neuro" />
         <div className="text">
           <br />
-          <h1>Neuroscience</h1>
-          <h3>Riving Innovative Neuroscience Research Forward</h3>
+          <h2>Neuroscience</h2>
+          <h5>Riving Innovative Neuroscience Research Forward</h5>
+          <img src="img/section-img.png" alt="line" />
         </div>
         <div className="paragraph">
           <p>

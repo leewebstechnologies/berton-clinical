@@ -9,11 +9,12 @@ const Staffing = () => {
         <img src={staffing} alt="staffing" />
         <div className="texts">
           <br />
-          <h1>STAFFING SERVICES</h1>
-          <h3>
+          <h2>STAFFING SERVICES</h2>
+          <h5>
             Elevating Biotech, Pharma, Healthcare, and IT Careers with Precision
             Recruitment
-          </h3>
+          </h5>
+          <img src="img/section-img.png" alt="line" />
         </div>
         <div className="paragraph">
           <p>

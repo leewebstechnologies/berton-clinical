@@ -11,6 +11,7 @@ const Dermatology = () => {
           <br />
           <h1>Dermatology</h1>
           <h3>Trusted Dermatology Trial Experts</h3>
+          <img src="img/section-img.png" alt="line" />
         </div>
         <div className="paragraph">
           <p>
@@ -226,6 +227,7 @@ const Dermatology = () => {
             improve patient outcomes. Let's collaborate to advance the field of
             dermatology together.
           </p>
+          <br />
         </div>
       </div>
       <Footer />
