@@ -12,17 +12,7 @@
 .slider.index2 .single-slider .text {
   margin-top: 150px;
 }
-/* .slider .single-slider h1 {
-  color: #2c2d3f;
-  font-size: 38px;
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-  line-height: 42px;
-}
-.slider .single-slider h1 span {
-  color: #1a76d1;
-} */
+
 .slider .single-slider p {
   color: #fff;
   margin-top: 27px;
@@ -83,7 +73,6 @@
   right: 20px;
 }
 
-/* Slider Animation */
 .owl-item.active .single-slider h1 {
   animation: fadeInUp 1s both 0.6s;
 }
