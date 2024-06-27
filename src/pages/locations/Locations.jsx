@@ -1,10 +1,13 @@
 import Footer from "../../components/footer/Footer";
 import "./locations.css";
+import location from "../../images/location.jpg";
 
 const Locations = () => {
   return (
     <>
-      Locations
+      <div className="locations">
+        <img src={location} alt="" />
+      </div>
       <Footer />
     </>
   );
