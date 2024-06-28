@@ -1,6 +1,6 @@
 .landing {
   position: relative;
-  text-align: center;
+  /* text-align: justify; */
   color: #fff;
 }
 
@@ -15,8 +15,10 @@
   transform: translate(-50%, -50%);
   color: #fff;
 }
-/* .heading {
-  text-align: center;
-  color: #fff;
-  margin-top: -300px;
-} */
+
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 11px;
+  
+  }
+}
