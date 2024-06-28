@@ -9,11 +9,13 @@ const Contact = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="section-title">
-                <h2>We Are Always Ready to Help You. Book An Appointment</h2>
+                <h2>Submit Request</h2>
                 <img src="img/section-img.png" alt="#" />
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit
-                  praesent aliquet. pretiumts
+                  Take the First Step Toward Clinical Success - Submit your
+                  request today to explore how Berton Clinical's customized
+                  solutions and proven expertise can propel your clinical
+                  development goals across the finish line.
                 </p>
               </div>
             </div>
@@ -24,7 +26,20 @@ const Contact = () => {
                 <div className="row">
                   <div className="col-lg-6 col-md-6 col-12">
                     <div className="form-group">
-                      <input name="name" type="text" placeholder="Name" />
+                      <input
+                        name="firstname"
+                        type="text"
+                        placeholder="First Name"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-lg-6 col-md-6 col-12">
+                    <div className="form-group">
+                      <input
+                        name="lastname"
+                        type="text"
+                        placeholder="Last Name"
+                      />
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-6 col-12">
@@ -38,6 +53,11 @@ const Contact = () => {
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-6 col-12">
+                    <div className="form-group">
+                      <input name="country" type="text" placeholder="Country" />
+                    </div>
+                  </div>
+                  {/* <div className="col-lg-6 col-md-6 col-12">
                     <div className="form-group">
                       <div
                         className="nice-select form-control wide"
@@ -92,7 +112,7 @@ const Contact = () => {
                     <div className="form-group">
                       <input type="text" placeholder="Date" id="datepicker" />
                     </div>
-                  </div>
+                  </div> */}
                   <div className="col-lg-12 col-md-12 col-12">
                     <div className="form-group">
                       <textarea
@@ -108,7 +128,7 @@ const Contact = () => {
                     <div className="form-group">
                       <div className="button">
                         <button type="submit" className="btn">
-                          Book An Appointment
+                          Submit
                         </button>
                       </div>
                     </div>
