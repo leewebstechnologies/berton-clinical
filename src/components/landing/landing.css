@@ -1,0 +1,22 @@
+.landing {
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+.molecules {
+  width: 100%;
+}
+
+.heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+/* .heading {
+  text-align: center;
+  color: #fff;
+  margin-top: -300px;
+} */
