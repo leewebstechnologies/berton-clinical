@@ -1,5 +1,6 @@
 import Footer from "../../components/footer/Footer";
 import "./contact.css";
+import contact from "../../images/contact.png";
 
 const Contact = () => {
   return (
@@ -141,7 +142,7 @@ const Contact = () => {
             </div>
             <div className="col-lg-6 col-md-12 ">
               <div className="appointment-image">
-                <img src="img/contact-img.png" alt="contact" />
+                <img src={contact} alt="contact" />
               </div>
             </div>
           </div>
