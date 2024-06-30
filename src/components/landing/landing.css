@@ -19,7 +19,7 @@
 @media screen and (max-width: 768px) {
   .heading {
     font-size: 12px;
-    margin-left: -10px;
+    width: 300px;
   
   }
 }

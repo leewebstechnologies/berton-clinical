@@ -2,6 +2,6 @@
   text-align: center;
 }
 
-.disorder {
-  list-style-type: disc;
+.disorders li {
+  list-style: disc;
 }
