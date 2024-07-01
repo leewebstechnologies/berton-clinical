@@ -6,3 +6,8 @@ ul {
 li {
   list-style-type: disc;
 }
+
+.point li {
+  list-style: disc;
+
+}

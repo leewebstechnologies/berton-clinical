@@ -48,7 +48,7 @@ const Investigators = () => {
             Berton Clinical actively seeks out distinguished investigative teams
             that exemplify the utmost levels of clinical excellence, including:
           </p>
-          <ul>
+          <ul className="inv">
             <li>
               Relevant and diverse patient populations aligned with our
               therapeutic focus areas in neurology, ophthalmology, dermatology,
