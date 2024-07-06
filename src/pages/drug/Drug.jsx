@@ -7,7 +7,6 @@ const Drug = () => {
     <>
       <div className="drug">
         <img
-          style={{ width: "100%" }}
           className="drug_image"
           src={drug}
           alt=""
