@@ -10,7 +10,7 @@
 
 .heading {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
@@ -18,8 +18,8 @@
 
 @media screen and (max-width: 768px) {
   .heading {
+    margin-top: 20px;
     font-size: 12px;
     width: 300px;
-  
   }
 }

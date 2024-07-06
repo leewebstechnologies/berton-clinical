@@ -11,7 +11,7 @@ const Neuroscience = () => {
           <br />
           <h2>Neuroscience</h2>
           <h5>Riving Innovative Neuroscience Research Forward</h5>
-          <img src="img/section-img.png" alt="line" />
+          <img className="neuro_img" src="img/section-img.png" alt="line" />
         </div>
         <div className="paragraph">
           <p>
