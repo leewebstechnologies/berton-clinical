@@ -6,7 +6,12 @@ const Drug = () => {
   return (
     <>
       <div className="drug">
-        <img className="drug_image" src={drug} alt="" />
+        <img
+          style={{ width: "100%" }}
+          className="drug_image"
+          src={drug}
+          alt=""
+        />
         <div className="texts">
           <br />
           <h1>Drug Manufacturing</h1>
