@@ -6,7 +6,7 @@ const Corporate = () => {
   return (
     <>
       <div className="corporate">
-        <img src={corporate} alt="corporate" />
+        <img className="corporate_image" src={corporate} alt="corporate" />
         <div className="text">
           <br />
           <h2>Corporate Philanthropy</h2>

@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.neuro_image {
+  width: 100%;
+}
+
 .disorders li {
   list-style: disc;
 }

@@ -6,7 +6,7 @@ const Dermatology = () => {
   return (
     <>
       <div className="dermatology">
-        <img src={dermatology} alt="dermatology" />
+        <img className="dermatology_image" src={dermatology} alt="dermatology" />
         <div className="text">
           <br />
           <h1>Dermatology</h1>

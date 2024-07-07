@@ -6,7 +6,7 @@ const Rescue = () => {
   return (
     <>
       <div className="rescue">
-        <img src={rescue} alt="rescue" />
+        <img className="rescue_image" src={rescue} alt="rescue" />
         <div className="texts">
           <br />
           <h2>Rescue Research - Save Studies</h2>

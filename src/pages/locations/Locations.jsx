@@ -6,7 +6,7 @@ const Locations = () => {
   return (
     <>
       <div className="locations">
-        <img src={location} alt="loaction" />
+        <img className="location_image" src={location} alt="loaction" />
         <div className="text">
           <br />
           <h2>Find Our Locations</h2>

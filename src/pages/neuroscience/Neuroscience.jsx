@@ -6,7 +6,7 @@ const Neuroscience = () => {
   return (
     <>
       <div className="neuro">
-        <img src={neuro} alt="neuro" />
+        <img className="neuro_image" src={neuro} alt="neuro" />
         <div className="text">
           <br />
           <h2>Neuroscience</h2>

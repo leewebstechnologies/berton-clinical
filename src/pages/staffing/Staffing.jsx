@@ -6,7 +6,7 @@ const Staffing = () => {
   return (
     <>
       <div className="staffing">
-        <img src={staffing} alt="staffing" />
+        <img className="staffing_image" src={staffing} alt="staffing" />
         <div className="texts">
           <br />
           <h2>STAFFING SERVICES</h2>

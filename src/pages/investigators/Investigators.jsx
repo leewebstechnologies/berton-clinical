@@ -6,7 +6,7 @@ const Investigators = () => {
   return (
     <>
       <div className="nvestigators">
-        <img src={investigators} alt="investigators" />
+        <img className="investigators_image" src={investigators} alt="investigators" />
         <div className="text">
           <br />
           <h2>Investigators</h2>

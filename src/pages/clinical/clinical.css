@@ -9,5 +9,8 @@ li {
 
 .point li {
   list-style: disc;
+}
 
+.training {
+  width: 100%;
 }

@@ -6,7 +6,7 @@ const Strategy = () => {
   return (
     <>
       <div className="strategy">
-        <img src={strategy} alt="strategy" />
+        <img className="strategy_image" src={strategy} alt="strategy" />
         <div className="text">
           <br />
           <h2>Our Strategy</h2>

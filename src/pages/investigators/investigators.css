@@ -1,3 +1,7 @@
- .inv li {
+.investigators_image {
+  width: 1005px;
+}
+
+.inv li {
   list-style: disc;
- }
+}

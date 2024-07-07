@@ -6,7 +6,11 @@ const Ophthalmology = () => {
   return (
     <>
       <div className="ophthalmology">
-        <img src={ophthalmology} alt="ophthalmology" />
+        <img
+          className="ophthalmology_image"
+          src={ophthalmology}
+          alt="ophthalmology"
+        />
         <div className="text">
           <br />
           <h2>Ophthalmology</h2>
