@@ -10,7 +10,9 @@
 
 .heading {
   position: absolute;
-  top: 50%;
+  /* margin-top: -30rem; */
+  width: -50px;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
