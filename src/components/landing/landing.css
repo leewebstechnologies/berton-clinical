@@ -11,7 +11,7 @@
 .heading {
   position: absolute;
   /* margin-top: -30rem; */
-  width: -50px;
+  /* width: -50px; */
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
