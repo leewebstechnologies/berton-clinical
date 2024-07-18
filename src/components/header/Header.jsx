@@ -66,8 +66,7 @@ const Header = () => {
                           <Link to="/">Home</Link>
                         </li>
                         <li>
-                          <a tabIndex="0"
-                          >
+                          <a tabIndex="0">
                             Solutions <i className="icofont-rounded-down" />
                           </a>
                           <ul className="dropdown">
